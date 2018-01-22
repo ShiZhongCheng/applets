@@ -15,7 +15,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 应用调试模式
-    'app_debug'              => false,
+    'app_debug'              => true,
     // 应用Trace
     'app_trace'              => false,
     // 应用模式状态
@@ -236,4 +236,8 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    //微信小程序配置
+    'appid'         =>  'wxff0c72b875eb50cb',
+    'secret'        =>  '71c4d9cece679f155122fa4d0cdf4b7a',  
 ];
